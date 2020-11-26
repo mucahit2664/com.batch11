@@ -3,6 +3,8 @@ package day02;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class HomewrokURLveTittleTest {
     //1. Yeni bir class olusturalim (Homework)
 //2. ChromeDriver kullanara, facebook sayfasina gidin ve sayfa basliginin (title) “facebook ”
