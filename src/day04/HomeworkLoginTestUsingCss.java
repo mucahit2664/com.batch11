@@ -42,11 +42,8 @@ NOT: cssSelector kullanarak elementleri locate ediniz.
         WebElement passwordTextBox=driver.findElement(By.cssSelector("input[placeholder='Password']"));
 
         //d. Locate signin button
-
-        WebElement signInButonu=driver.findElement(By.cssSelector("input[name='commit']"));
-
-
-        //e. Asagidaki kullanıcı adını ve şifreyi girin ve sign in düğmesini tıklayın
+  WebElement signInButonu=driver.findElement(By.cssSelector("input[name='commit']"));
+ //e. Asagidaki kullanıcı adını ve şifreyi girin ve sign in düğmesini tıklayın
         //i. Username : testtechproed@gmail.com
         //ii. Password : Test1234
 

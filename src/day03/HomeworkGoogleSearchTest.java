@@ -40,10 +40,10 @@ public class HomeworkGoogleSearchTest {
 
        // WebElement alisverisLinki=driver.findElement(By.linkText("Alısveris"));
       //  alisverisLinki.click();
-        driver.findElement(By.linkText("Alisveris")).click();
+        driver.findElement(By.xpath("(//a[@class='hide-focus-ring'])[1]")).click();
         //		e. Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
 
-        driver.findElement(By.id("srpresultimg_15970114592076028408_1_0")).click();
+        driver.findElement(By.xpath("(//img[@class='rg_i Q4LuWd'])[1]")).click();
         driver.close();
             }
         }
